@@ -1,0 +1,163 @@
+Last login: Thu Aug 31 22:39:00 on ttys000
+Yuans-MacBook-Pro:~ Poseidon$ cd Desktop
+Yuans-MacBook-Pro:Desktop Poseidon$ cd doit
+Yuans-MacBook-Pro:doit Poseidon$ make
+g++ doit.cpp -o doit
+Yuans-MacBook-Pro:doit Poseidon$ ./doit wc foo.txt
+   53325  421876 2054025 foo.txt
+Wall Clock Time:                      12
+User CPU Time:                         8
+System CPU Time:                       1
+Max RSS:                         2969600
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                       948
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               0
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:          7
+
+Yuans-MacBook-Pro:doit Poseidon$ ./doit mkdir file file1 file2
+Wall Clock Time:                       4
+User CPU Time:                         0
+System CPU Time:                       1
+Max RSS:                         1699840
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                       638
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               5
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:          6
+Yuans-MacBook-Pro:doit Poseidon$ ./doit ls
+Makefile	doit.cpp	file1		foo.txt
+doit		file		file2
+Wall Clock Time:                       3
+User CPU Time:                         1
+System CPU Time:                       0
+Max RSS:                         1990656
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                       709
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               0
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:          5
+Yuans-MacBook-Pro:doit Poseidon$ rmdir file file1 file2
+Yuans-MacBook-Pro:doit Poseidon$ ls
+Makefile	doit		doit.cpp	foo.txt
+Yuans-MacBook-Pro:doit Poseidon$ ./doit
+The program is executing as shell...
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ ls
+Makefile	doit		doit.cpp	foo.txt
+Wall Clock Time:                       4
+User CPU Time:                         1
+System CPU Time:                       0
+Max RSS:                         1990656
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                       718
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               0
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:          4
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ mkdir happy
+Wall Clock Time:                       4
+User CPU Time:                         2
+System CPU Time:                       2
+Max RSS:                         1990656
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                      1367
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               5
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:          7
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ sleep 5 &
+Background requested.
+[1] 4533 sleep 5 &
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ sleep 5
+Wall Clock Time:                       0
+User CPU Time:                         3
+System CPU Time:                       3
+Max RSS:                         1990656
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                      2010
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               5
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:         16
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ sleep 10 &
+Background requested.
+[2] 4535 sleep 10 &
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ jobs
+[1] 4533 sleep 5 &
+[2] 4535 sleep 10 &
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ mkdir test-file
+Wall Clock Time:                       1
+User CPU Time:                         4
+System CPU Time:                       4
+Max RSS:                         1990656
+Integral Shared Memory Size:           0
+Integral Unshared Data Size:           0
+Integral Unshared Stack Size:          0
+Page Reclaims:                      2656
+Page Faults:                           0
+Swaps:                                 0
+Block Input Operations:                0
+Block Output Operations:               5
+IPC Messages Sent:                     0
+IPC Messages Received:                 0
+Signals Received:                      0
+Voluntary Context Switches:            0
+Involuntary Context Switches:         24
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ cd test_file
+Error changing directory!
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ cd test-file
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit/test-file$ cd ..
+Poseidon@Yuans-MacBook-Pro.local:/Users/Poseidon/Desktop/doit$ exit
+It is waiting for background processes to complete...
+Yuans-MacBook-Pro:doit Poseidon$ script
+Script started, output file is typescript
+bash-3.2$ exit
+exit
+
+Script done, output file is typescript
+Yuans-MacBook-Pro:doit Poseidon$

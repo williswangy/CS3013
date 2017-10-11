@@ -1,0 +1,172 @@
+yuan@yuan-VirtualBox:/media/sf_VMshared$ ./mailbox 3 test.txt 
+YOUR NB option : OFF.
+--------------------------------
+| ATTENTION!! CREATING THERAD 1 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 2 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 3 |
+--------------------------------
+================================
+||Children thread #3 created.||
+================================
+================================
+||Children thread #2 created.||
+================================
+================================
+||Children thread #1 created.||
+================================
+The result from thread 1 is 14 from 3 operations during 3 secs. 
+The result from thread 2 is 13 from 2 operations during 2 secs. 
+The result from thread 3 is 7 from 1 operations during 2 secs. 
+yuan@yuan-VirtualBox:/media/sf_VMshared$ ./mailbox 3 test.txt nb
+YOUR NB option : ON.
+
+
+--------------------------------
+| ATTENTION!! CREATING THERAD 1 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 2 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 3 |
+--------------------------------
+================================
+||Children thread #3 created.||
+================================
+================================
+||Children thread #2 created.||
+================================
+================================
+||Children thread #1 created.||
+================================
+The result from thread 1 is 14 from 3 operations during 3 secs. 
+The result from thread 2 is 13 from 2 operations during 2 secs. 
+The result from thread 3 is 7 from 1 operations during 2 secs. 
+yuan@yuan-VirtualBox:/media/sf_VMshared$ 
+yuan@yuan-VirtualBox:/media/sf_VMshared$ ./mailbox 8 test.txt
+YOUR NB option : OFF.
+--------------------------------
+| ATTENTION!! CREATING THERAD 1 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 2 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 3 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 4 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 5 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 6 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 7 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 8 |
+--------------------------------
+================================
+||Children thread #6 created.||
+================================
+================================
+||Children thread #7 created.||
+================================
+================================
+||Children thread #8 created.||
+================================
+================================
+||Children thread #5 created.||
+================================
+================================
+||Children thread #4 created.||
+================================
+================================
+||Children thread #3 created.||
+================================
+================================
+||Children thread #2 created.||
+================================
+================================
+||Children thread #1 created.||
+================================
+The result from thread 1 is 14 from 3 operations during 3 secs. 
+The result from thread 2 is 13 from 2 operations during 2 secs. 
+The result from thread 3 is 7 from 1 operations during 2 secs. 
+The result from thread 4 is 0 from 0 operations during 2 secs. 
+The result from thread 5 is 0 from 0 operations during 2 secs. 
+The result from thread 6 is 0 from 0 operations during 2 secs. 
+The result from thread 7 is 0 from 0 operations during 2 secs. 
+The result from thread 8 is 0 from 0 operations during 2 secs. 
+yuan@yuan-VirtualBox:/media/sf_VMshared$ ./mailbox 8 test.txt nb
+YOUR NB option : ON.
+
+
+--------------------------------
+| ATTENTION!! CREATING THERAD 1 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 2 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 3 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 4 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 5 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 6 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 7 |
+--------------------------------
+--------------------------------
+| ATTENTION!! CREATING THERAD 8 |
+--------------------------------
+================================
+||Children thread #6 created.||
+================================
+================================
+||Children thread #7 created.||
+================================
+================================
+||Children thread #8 created.||
+================================
+================================
+||Children thread #5 created.||
+================================
+================================
+||Children thread #4 created.||
+================================
+================================
+||Children thread #3 created.||
+================================
+================================
+||Children thread #2 created.||
+================================
+================================
+||Children thread #1 created.||
+================================
+The result from thread 1 is 14 from 3 operations during 3 secs. 
+The result from thread 2 is 13 from 2 operations during 2 secs. 
+The result from thread 3 is 7 from 1 operations during 2 secs. 
+The result from thread 4 is 0 from 0 operations during 2 secs. 
+The result from thread 5 is 0 from 0 operations during 2 secs. 
+The result from thread 6 is 0 from 0 operations during 2 secs. 
+The result from thread 7 is 0 from 0 operations during 2 secs. 
+The result from thread 8 is 0 from 0 operations during 2 secs. 
+yuan@yuan-VirtualBox:/media/sf_VMshared$ 
+
+
+
+

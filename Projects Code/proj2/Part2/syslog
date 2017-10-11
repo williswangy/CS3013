@@ -1,0 +1,1103 @@
+Sep 15 00:20:07 danny-VirtualBox anacron[755]: Job `cron.daily' terminated
+Sep 15 00:20:07 danny-VirtualBox anacron[755]: Normal exit (1 job run)
+Sep 15 00:20:33 danny-VirtualBox kernel: [  337.801270] ohci-pci 0000:00:06.0: frame counter not updating; disabled
+Sep 15 00:20:33 danny-VirtualBox kernel: [  337.801289] ohci-pci 0000:00:06.0: HC died; cleaning up
+Sep 15 00:20:33 danny-VirtualBox kernel: [  337.801595] usb 1-1: USB disconnect, device number 2
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017902] irq 22: nobody cared (try booting with the "irqpoll" option)
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017917] CPU: 2 PID: 0 Comm: swapper/2 Tainted: G           OE   4.4.79ysong5 #1
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017918] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017920]  c1adf967 634c505e 00200086 f2189f4c c13ad5af f2377540 f23775a0 f2189f6c
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017925]  c10cc50f c19d95c0 00000016 0000088f f5db6e54 f2377540 00000000 f2189f90
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017928]  c10cc89c e6f854eb 000000db b0dc9f49 634c505e f2377540 f23775a0 00000000
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017932] Call Trace:
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017938]  [<c13ad5af>] dump_stack+0x58/0x79
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017942]  [<c10cc50f>] __report_bad_irq+0x2f/0xd0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017944]  [<c10cc89c>] note_interrupt+0x21c/0x260
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017947]  [<c10c9fff>] handle_irq_event_percpu+0x14f/0x1c0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017949]  [<c10ca09f>] handle_irq_event+0x2f/0x50
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017951]  [<c10ccd85>] handle_fasteoi_irq+0x75/0x120
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017953]  [<c10ccd10>] ? handle_simple_irq+0x70/0x70
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017955]  [<c102c134>] handle_irq+0x64/0x80
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017956]  <IRQ>  [<c17c566c>] do_IRQ+0x3c/0xc0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017967]  [<c17c4af3>] common_interrupt+0x33/0x38
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017969]  [<c10e007b>] ? check_cpu_itimer+0x5b/0x150
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017972]  [<c10746ad>] ? __do_softirq+0x5d/0x260
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017973]  [<c1074650>] ? cpu_callback+0x1d0/0x1d0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017975]  [<c102c0c8>] do_softirq_own_stack+0x28/0x30
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017976]  <IRQ>  [<c1074a25>] irq_exit+0xa5/0xb0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017979]  [<c17c5728>] smp_apic_timer_interrupt+0x38/0x50
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017981]  [<c17c4df8>] apic_timer_interrupt+0x34/0x3c
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017984]  [<c105bc35>] ? native_safe_halt+0x5/0x10
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017986]  [<c103385c>] default_idle+0x1c/0xd0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017987]  [<c1033f2e>] arch_cpu_idle+0xe/0x10
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017990]  [<c10afe58>] default_idle_call+0x28/0x40
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017991]  [<c10b01af>] cpu_startup_entry+0x2cf/0x320
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017993]  [<c104bec3>] start_secondary+0x163/0x1c0
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017995] handlers:
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017997] [<c15c29d0>] usb_hcd_irq
+Sep 15 00:20:34 danny-VirtualBox kernel: [  339.017998] Disabling IRQ #22
+Sep 15 00:29:53 danny-VirtualBox systemd[1]: Starting Automatically fetch and run repair assertions...
+Sep 15 00:29:53 danny-VirtualBox snap-repair[4104]: error: cannot use snap-repair on a classic system
+Sep 15 00:29:53 danny-VirtualBox systemd[1]: Started Automatically fetch and run repair assertions.
+Sep 15 00:30:43 danny-VirtualBox gnome-session[1947]: ** (zeitgeist-datahub:2833): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+Sep 15 00:30:43 danny-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Sep 15 00:30:43 danny-VirtualBox systemd-tmpfiles[4123]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Sep 15 00:30:43 danny-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Sep 15 00:30:43 danny-VirtualBox gnome-session[1947]: ** (zeitgeist-datahub:2833): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+Sep 15 00:30:45 danny-VirtualBox dbus[704]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Sep 15 00:30:45 danny-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 15 00:30:45 danny-VirtualBox dbus[704]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 15 00:30:45 danny-VirtualBox systemd[1]: Started Hostname Service.
+Sep 15 00:31:17 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1629]: ** (zeitgeist-fts:2851): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 00:35:39 danny-VirtualBox kernel: [ 1243.871675] Interceptor: Found syscall table at address: 0xC17C81C0
+Sep 15 00:36:08 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1629]: ** (zeitgeist-fts:2851): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 08:59:55 danny-VirtualBox systemd-modules-load[214]: Inserted module 'lp'
+Sep 15 08:59:55 danny-VirtualBox systemd-modules-load[214]: Inserted module 'ppdev'
+Sep 15 08:59:55 danny-VirtualBox systemd-modules-load[214]: Inserted module 'parport_pc'
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Mounting FUSE Control File System...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Apply Kernel Variables...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Create Static Device Nodes in /dev...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Mounted FUSE Control File System.
+Sep 15 08:59:55 danny-VirtualBox loadkeys[220]: Loading /etc/console-setup/cached.kmap.gz
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Set console keymap.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Apply Kernel Variables.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Create Static Device Nodes in /dev.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting udev Kernel Device Manager...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started udev Kernel Device Manager.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Remount Root and Kernel File Systems...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Remount Root and Kernel File Systems.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Load/Save Random Seed...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Local File Systems (Pre).
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Local File Systems.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting LSB: AppArmor initialization...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Clean up any mess left by 0dns-up...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Set console font and keymap...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Flush Journal to Persistent Storage...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting udev Coldplug all Devices...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Load/Save Random Seed.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Clean up any mess left by 0dns-up.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Flush Journal to Persistent Storage.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started udev Coldplug all Devices.
+Sep 15 08:59:55 danny-VirtualBox apparmor[264]:  * Starting AppArmor profiles
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Show Plymouth Boot Screen...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Create Volatile Files and Directories...
+Sep 15 08:59:55 danny-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="717" x-info="http://www.rsyslog.com"] start
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Nameserver information manager...
+Sep 15 08:59:55 danny-VirtualBox systemd-tmpfiles[333]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Nameserver information manager.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Network (Pre).
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Create Volatile Files and Directories.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target System Time Synchronized.
+Sep 15 08:59:55 danny-VirtualBox rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Sep 15 08:59:55 danny-VirtualBox rsyslogd: rsyslogd's groupid changed to 108
+Sep 15 08:59:55 danny-VirtualBox rsyslogd: rsyslogd's userid changed to 104
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Show Plymouth Boot Screen.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Sep 15 08:59:55 danny-VirtualBox apparmor[264]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Sep 15 08:59:55 danny-VirtualBox mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1"
+Sep 15 08:59:55 danny-VirtualBox mtp-probe: bus: 1, device: 2 was not an MTP device
+Sep 15 08:59:55 danny-VirtualBox apparmor[264]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Sep 15 08:59:55 danny-VirtualBox apparmor[264]:    ...done.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started LSB: AppArmor initialization.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Raise network interfaces...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Set console font and keymap.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Created slice system-getty.slice.
+Sep 15 08:59:55 danny-VirtualBox systemd-udevd[313]: Process '/lib/udev/hdparm' failed with exit code 5.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Found device VBOX_HARDDISK 5.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Activating swap /dev/disk/by-uuid/e87e6a09-8eb1-439c-9237-941750a10b90...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Activated swap /dev/disk/by-uuid/e87e6a09-8eb1-439c-9237-941750a10b90.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Swap.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target System Initialization.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on UUID daemon activation socket.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Timer to automatically fetch and run repair assertions.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Daily Cleanup of Temporary Directories.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Socket activation for snappy daemon.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on D-Bus System Message Bus Socket.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started ACPI Events Check.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Paths.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Timer to automatically refresh installed snaps.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Listening on Socket activation for snappy daemon.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Sockets.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Reached target Basic System.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Run anacron jobs.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting LSB: Speech Dispatcher...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Automatically fetch and run repair assertions...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Sep 15 08:59:55 danny-VirtualBox anacron[703]: Anacron 2.3 started on 2017-09-15
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Login Service...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting System Logging Service...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Regular background program processing daemon.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting vboxadd.service...
+Sep 15 08:59:55 danny-VirtualBox anacron[703]: Normal exit (0 jobs run)
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started ACPI event daemon.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting LSB: automatic crash report generation...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Thermal Daemon Service...
+Sep 15 08:59:55 danny-VirtualBox cron[721]: (CRON) INFO (pidfile fd = 3)
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting vboxadd-x11.service...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Modem Manager...
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: Found user 'avahi' (UID 111) and group 'avahi' (GID 120).
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: Successfully dropped root privileges.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: avahi-daemon 0.6.32-rc starting up.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Accounts Service...
+Sep 15 08:59:55 danny-VirtualBox snap-repair[709]: error: cannot use snap-repair on a classic system
+Sep 15 08:59:55 danny-VirtualBox cron[721]: (CRON) INFO (Running @reboot jobs)
+Sep 15 08:59:55 danny-VirtualBox gpu-manager[749]: /etc/modprobe.d is not a file
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting LSB: Record successful boot for GRUB...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+Sep 15 08:59:55 danny-VirtualBox ModemManager[740]: <info>  ModemManager (version 1.4.12) starting in system bus...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started D-Bus System Message Bus.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initializing cgroup subsys cpuset
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initializing cgroup subsys cpu
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Linux version 4.4.79ysong5 (root@danny-VirtualBox) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #1 SMP Thu Sep 7 01:00:34 EDT 2017 (Ubuntu 4.4.0-93.116-generic 4.4.79)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   NSC Geode by NSC
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Cyrix CyrixInstead
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Transmeta GenuineTMx86
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Transmeta TransmetaCPU
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   UMC UMC UMC UMC
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x04: 'AVX registers'
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/fpu: Using 'lazy' FPU context switches.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] e820: last_pfn = 0x120000 max_arch_pfn = 0x1000000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] MTRR default type: uncachable
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] MTRR variable ranges disabled:
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] MTRR: Disabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [c009fff0]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x021fffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Base memory trampoline at [c009b000] 9b000 size 16384
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BRK [0x01d65000, 0x01d65fff] PGTABLE
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] BRK [0x01d66000, 0x01d66fff] PGTABLE
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] RAMDISK: [mem 0x338b6000-0x35c52fff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x00000000DFFF0480 0021C8 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: APIC 0x00000000DFFF0240 00006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x00000000DFFF02B0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] 3716MB HIGHMEM available.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] 891MB LOWMEM available.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   mapped low ram: 0 - 37bfe000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   low ram: 0 - 37bfe000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 0:37bfd001, primary cpu clock
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] kvm-clock: using sched offset of 11187623635 cycles
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Zone ranges:
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Normal   [mem 0x0000000001000000-0x0000000037bfdfff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   HighMem  [mem 0x0000000037bfe000-0x000000011fffffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Movable zone start for each node
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Early memory node ranges
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] On node 0 totalpages: 1048462
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   DMA zone: 40 pages used for memmap
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   DMA zone: 0 pages reserved
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Normal zone: 2190 pages used for memmap
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   Normal zone: 224254 pages, LIFO batch:31
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]   HighMem zone: 820210 pages, LIFO batch:31
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Using APIC driver default
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] IOAPIC[0]: apic_id 4, version 32, address 0xfec00000, GSI 0-23
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] e820: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] setup_percpu: NR_CPUS:8 nr_cpumask_bits:8 nr_cpu_ids:4 nr_node_ids:1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PERCPU: Embedded 19 pages/cpu @f5d8a000 s47436 r0 d30388 u77824
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] pcpu-alloc: s47436 r0 d30388 u77824 alloc=19*4096
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PV qspinlock hash table entries: 512 (order: 0, 4096 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 1046232
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.79ysong5 root=UUID=762043c0-c24d-4b79-a8f1-75c8b0456829 ro quiet splash
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initializing CPU#0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initializing HighMem for node 0 (00037bfe:00120000)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Initializing Movable for node 0 (00000000:00000000)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Memory: 4101356K/4193848K available (7960K kernel code, 771K rwdata, 3132K rodata, 940K init, 800K bss, 92492K reserved, 0K cma-reserved, 3280840K highmem)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] virtual kernel memory layout:
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]     fixmap  : 0xfff15000 - 0xfffff000   ( 936 kB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]     vmalloc : 0xf83fe000 - 0xffbfe000   ( 120 MB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xf7bfe000   ( 891 MB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]       .init : 0xc1b99000 - 0xc1c84000   ( 940 kB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]       .data : 0xc17c6541 - 0xc1b97f00   (3910 kB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000]       .text : 0xc1000000 - 0xc17c6541   (7961 kB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Hierarchical RCU implementation.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+Sep 15 08:59:55 danny-VirtualBox rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Sep 15 08:59:55 danny-VirtualBox rsyslogd-2007: action 'action 10' suspended, next retry is Fri Sep 15 09:00:25 2017 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=4
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] NR_IRQS:2304 nr_irqs:456 16
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] CPU 0 irqstacks, hard=f2838000 soft=f283a000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] Console: colour VGA+ 80x25
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] console [tty0] enabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] allocated 4194304 bytes of page_ext
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.000000] tsc: Detected 2711.998 MHz processor
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.165988] Calibrating delay loop (skipped) preset value.. 5423.99 BogoMIPS (lpj=10847992)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.165992] pid_max: default: 32768 minimum: 301
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.166001] ACPI: Core revision 20150930
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167219] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167237] Security Framework initialized
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167239] Yama: becoming mindful.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167253] AppArmor: AppArmor initialized
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167285] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167287] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167450] Initializing cgroup subsys io
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167453] Initializing cgroup subsys memory
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167458] Initializing cgroup subsys devices
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167460] Initializing cgroup subsys freezer
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167462] Initializing cgroup subsys net_cls
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167464] Initializing cgroup subsys perf_event
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167467] Initializing cgroup subsys net_prio
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167470] Initializing cgroup subsys hugetlb
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167471] Initializing cgroup subsys pids
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167562] CPU: Physical Processor ID: 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.167564] CPU: Processor Core ID: 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.169613] mce: CPU supports 0 MCE banks
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.169642] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.169643] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.172479] Freeing SMP alternatives memory: 28K (c1c84000 - c1c8b000)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.179884] ftrace: allocating 31342 entries in 62 pages
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.214817] smpboot: APIC(0) Converting physical 0 to logical package 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.214820] smpboot: Max logical packages: 1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.214833] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.215877] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.321851] smpboot: CPU0: Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz (family: 0x6, model: 0x5e, stepping: 0x3)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.321864] Performance Events: unsupported p6 CPU model 94 no PMU driver, software events only.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.321898] KVM setup paravirtual spinlock
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.322512] CPU 1 irqstacks, hard=f215a000 soft=f215c000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.322513] x86: Booting SMP configuration:
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.322514] .... node  #0, CPUs:      #1
+Sep 15 08:59:55 danny-VirtualBox kernel: [1266874878.521927] Initializing CPU#1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.322717] kvm-clock: cpu 1, msr 0:37bfd041, secondary cpu clock
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.324841] mce: CPU supports 0 MCE banks
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.326973] CPU 2 irqstacks, hard=f2188000 soft=f218a000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.326977]  #2
+Sep 15 08:59:55 danny-VirtualBox kernel: [1266874878.521927] Initializing CPU#2
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.327160] kvm-clock: cpu 2, msr 0:37bfd081, secondary cpu clock
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.329225] mce: CPU supports 0 MCE banks
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.331353] CPU 3 irqstacks, hard=f21b2000 soft=f21b4000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.331356]  #3
+Sep 15 08:59:55 danny-VirtualBox kernel: [1266874878.521927] Initializing CPU#3
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.331531] kvm-clock: cpu 3, msr 0:37bfd0c1, secondary cpu clock
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.333649] mce: CPU supports 0 MCE banks
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336239] x86: Booted up 1 node, 4 CPUs
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336243] smpboot: Total of 4 processors activated (21695.98 BogoMIPS)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336612] devtmpfs: initialized
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336829] evm: security.selinux
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336830] evm: security.SMACK64
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336831] evm: security.SMACK64EXEC
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336831] evm: security.SMACK64TRANSMUTE
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336832] evm: security.SMACK64MMAP
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336833] evm: security.ima
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.336834] evm: security.capability
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.337146] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.337152] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.339362] pinctrl core: initialized pinctrl subsystem
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.339488] RTC time: 12:59:49, date: 09/15/17
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.342499] NET: Registered protocol family 16
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.342776] EISA bus registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.354811] cpuidle: using governor ladder
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.366866] cpuidle: using governor menu
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.366877] PCCT header not found.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.366976] ACPI: bus type PCI registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.366978] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.367231] PCI : PCI BIOS area is rw and x. Use pci=nobios if you want it NX.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.367233] PCI: PCI BIOS revision 2.10 entry at 0xfda26, last bus=0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.367234] PCI: Using configuration type 1 for base access
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.379685] ACPI: Added _OSI(Module Device)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.379688] ACPI: Added _OSI(Processor Device)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.379690] ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.379691] ACPI: Added _OSI(Processor Aggregator Device)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.380346] ACPI: Executed 1 blocks of module-level executable AML code
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.381899] ACPI: Interpreter enabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.381913] ACPI: (supports S0 S5)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.381914] ACPI: Using IOAPIC for interrupt routing
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.382029] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.385993] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386000] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386005] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386009] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386324] PCI host bridge to bus 0000:00
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386328] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386330] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386332] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386334] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xffdfffff window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386337] pci_bus 0000:00: root bus resource [bus 00-ff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386381] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.386976] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.387834] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.388289] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.388482] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.388485] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.388487] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.388489] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.388711] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.392980] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe7ffffff pref]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.414769] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.417023] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.420313] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.427109] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.428716] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.430275] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.431832] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.437920] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.438028] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.438085] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.438516] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.440074] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.449305] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.449768] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.449778] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.450035] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.451579] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.454466] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.457328] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.458733] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.460830] pci_bus 0000:00: on NUMA node 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.461801] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.461973] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462043] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462111] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462218] ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462516] vgaarb: setting as boot device: PCI:0000:00:02.0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462518] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462520] vgaarb: loaded
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462521] vgaarb: bridge control possible 0000:00:02.0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462778] SCSI subsystem initialized
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462918] libata version 3.00 loaded.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462949] ACPI: bus type USB registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462969] usbcore: registered new interface driver usbfs
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.462977] usbcore: registered new interface driver hub
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463019] usbcore: registered new device driver usb
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463421] PCI: Using ACPI for IRQ routing
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463424] PCI: pci_cache_line_size set to 64 bytes
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463579] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463583] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463691] NetLabel: Initializing
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463692] NetLabel:  domain hash size = 128
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463693] NetLabel:  protocols = UNLABELED CIPSOv4
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463702] NetLabel:  unlabeled traffic allowed by default
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463867] amd_nb: Cannot enumerate AMD northbridges
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.463950] clocksource: Switched to clocksource kvm-clock
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.471668] AppArmor: AppArmor Filesystem Enabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.471724] pnp: PnP ACPI init
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.471780] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.471838] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.472492] pnp: PnP ACPI: found 2 devices
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.472501] PnPBIOS: Disabled by ACPI PNP
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.513758] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.513788] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.513790] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.513791] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.513793] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xffdfffff window]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.513835] NET: Registered protocol family 2
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514034] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514044] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514054] TCP: Hash tables configured (established 8192 bind 8192)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514095] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514098] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514125] NET: Registered protocol family 1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514135] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514160] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.514182] pci 0000:00:02.0: Video device with shadowed ROM
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.515041] PCI: CLS 0 bytes, default 64
+Sep 15 08:59:55 danny-VirtualBox kernel: [    0.515094] Unpacking initramfs...
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.077262] Freeing initrd memory: 36468K (f38b6000 - f5c53000)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.077420] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.077443] Scanning for low memory corruption every 60 seconds
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.077961] audit: initializing netlink subsys (disabled)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.077972] audit: type=2000 audit(1505480402.839:1): initialized
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.078172] Initialise system trusted keyring
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.078445] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.079522] zbud: loaded
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.079679] VFS: Disk quotas dquot_6.6.0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.079705] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.079875] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.080228] fuse init (API version 7.23)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.080430] Key type big_key registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.080450] Allocating IMA MOK and blacklist keyrings.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082475] Key type asymmetric registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082483] Asymmetric key parser 'x509' registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082495] bounce: pool size: 64 pages
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082525] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082636] io scheduler noop registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082638] io scheduler deadline registered (default)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082662] io scheduler cfq registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082739] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082744] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.082770] intel_idle: does not run on family 6 model 94
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.083033] ACPI: AC Adapter [AC] (on-line)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.083076] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.083079] ACPI: Power Button [PWRF]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.083135] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.083137] ACPI: Sleep Button [SLPF]
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.083379] GHES: HEST is not enabled!
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.084117] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.084140] ACPI: Battery Slot [BAT0] (battery present)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.084168] isapnp: Scanning for PnP cards...
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.085066] Linux agpgart interface v0.103
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087080] loop: module loaded
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087209] ata_piix 0000:00:01.1: version 2.13
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087629] scsi host0: ata_piix
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087801] scsi host1: ata_piix
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087834] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087835] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087983] libphy: Fixed MDIO Bus: probed
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087986] tun: Universal TUN/TAP device driver, 1.6
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.087987] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088020] PPP generic driver version 2.4.2
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088055] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088058] ehci-pci: EHCI PCI platform driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088065] ehci-platform: EHCI generic platform driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088070] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088073] ohci-pci: OHCI PCI platform driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088469] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088474] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.088525] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.144733] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.144736] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.144738] usb usb1: Product: OHCI PCI host controller
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.144739] usb usb1: Manufacturer: Linux 4.4.79ysong5 ohci_hcd
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.144740] usb usb1: SerialNumber: 0000:00:06.0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.152149] hub 1-0:1.0: USB hub found
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.152163] hub 1-0:1.0: 12 ports detected
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.152468] ohci-platform: OHCI generic platform driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.152479] uhci_hcd: USB Universal Host Controller Interface driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.152531] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153078] serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153083] serio: i8042 AUX port at 0x60,0x64 irq 12
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153177] mousedev: PS/2 mouse device common for all mice
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153443] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153487] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153492] i2c /dev entries driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153551] device-mapper: uevent: version 1.0.3
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153602] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153618] platform eisa.0: Probing EISA bus 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153620] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153622] platform eisa.0: Cannot allocate resource for EISA slot 1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153623] platform eisa.0: Cannot allocate resource for EISA slot 2
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153624] platform eisa.0: Cannot allocate resource for EISA slot 3
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153625] platform eisa.0: Cannot allocate resource for EISA slot 4
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153626] platform eisa.0: Cannot allocate resource for EISA slot 5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153627] platform eisa.0: Cannot allocate resource for EISA slot 6
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153628] platform eisa.0: Cannot allocate resource for EISA slot 7
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153629] platform eisa.0: Cannot allocate resource for EISA slot 8
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153630] platform eisa.0: EISA: Detected 0 cards
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153643] cpufreq-nforce2: No nForce2 chipset.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153650] ledtrig-cpu: registered to indicate activity on CPUs
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.153888] NET: Registered protocol family 10
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154215] NET: Registered protocol family 17
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154229] Key type dns_resolver registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154432] microcode: CPU0 sig=0x506e3, pf=0x2, revision=0x0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154506] microcode: CPU1 sig=0x506e3, pf=0x2, revision=0x0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154514] microcode: CPU2 sig=0x506e3, pf=0x2, revision=0x0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154547] microcode: CPU3 sig=0x506e3, pf=0x2, revision=0x0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154577] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154585] Using IPI No-Shortcut mode
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154703] registered taskstats version 1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.154715] Loading compiled-in X.509 certificates
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.156511] Loaded X.509 cert 'Build time autogenerated kernel key: c9c61f7829321816fefa63c14ed83856d4c9bb6b'
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.156528] zswap: loaded using pool lzo/zbud
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.156593] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.158516] Key type trusted registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162010] Key type encrypted registered
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162017] AppArmor: AppArmor sha1 policy hashing enabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162024] ima: No TPM chip found, activating TPM-bypass!
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162042] evm: HMAC attrs: 0x1
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162485]   Magic number: 1:859:986
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162614] rtc_cmos rtc_cmos: setting system clock to 2017-09-15 12:59:50 UTC (1505480390)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162768] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162769] EDD information not available.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.162806] PM: Hibernation image not present or could not be loaded.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.257296] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.257607] ata2.00: configured for UDMA/33
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.440986] isapnp: No Plug & Play device found
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.441516] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.448734] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.448736] cdrom: Uniform CD-ROM driver Revision: 3.20
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.448838] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.448876] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.449293] Freeing unused kernel memory: 940K (c1b99000 - c1c84000)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.449489] Write protecting the kernel text: 7964k
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.449586] Write protecting the kernel read-only data: 3136k
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.449587] NX-protecting the kernel data: 6372k
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.461790] random: systemd-udevd: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.461885] random: systemd-udevd: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462499] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462540] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462741] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462787] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462828] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462875] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462928] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.462979] random: udevadm: uninitialized urandom read (16 bytes read, 0 bits of entropy available)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.480686] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.480745] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.489086] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.489088] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.491402] FUJITSU Extended Socket Network Device Driver - version 1.0 - Copyright (c) 2015 FUJITSU LIMITED
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.564080] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.710749] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.836298] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:1b:2e:8a
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.836304] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.836442] ahci 0000:00:0d.0: version 3.0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.837383] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.837603] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.837718] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.837720] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.838108] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.838110] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.838112] usb 1-1: Product: USB Tablet
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.838113] usb 1-1: Manufacturer: VirtualBox
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.838320] scsi host2: ahci
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.838381] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.846748] hidraw: raw HID events driver (C) Jiri Kosina
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.858495] usbcore: registered new interface driver usbhid
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.858497] usbhid: USB HID core driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.864038] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Sep 15 08:59:55 danny-VirtualBox kernel: [    1.864111] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.076261] tsc: Refined TSC clocksource calibration: 2712.772 MHz
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.076266] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x271a5f68bde, max_idle_ns: 440795229542 ns
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.156246] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.156358] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.156360] ata3.00: 104857600 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.156541] ata3.00: configured for UDMA/133
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.156935] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.157215] sd 2:0:0:0: [sda] 104857600 512-byte logical blocks: (53.7 GB/50.0 GiB)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.157237] sd 2:0:0:0: [sda] Write Protect is off
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.157239] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.157248] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.157334] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.163877]  sda: sda1 sda2 < sda5 >
+Sep 15 08:59:55 danny-VirtualBox kernel: [    2.164357] sd 2:0:0:0: [sda] Attached SCSI disk
+Sep 15 08:59:55 danny-VirtualBox kernel: [    4.508168] floppy0: no floppy controllers found
+Sep 15 08:59:55 danny-VirtualBox kernel: [    4.508206] work still pending
+Sep 15 08:59:55 danny-VirtualBox kernel: [    4.866194] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.205086] lp: driver loaded but no devices found
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.213431] ppdev: user-space parallel port driver
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.352098] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.403513] random: nonblocking pool is initialized
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.519169] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.551537] vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.561797] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.561868] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.566103] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.566104] vboxguest: Successfully loaded version 5.1.26 (interface 0x00010004)
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.598975] audit: type=1400 audit(1505480394.932:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/ubuntu-core-launcher" pid=437 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.621537] audit: type=1400 audit(1505480394.956:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=433 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.621546] audit: type=1400 audit(1505480394.956:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=433 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.623361] audit: type=1400 audit(1505480394.956:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=434 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.623365] audit: type=1400 audit(1505480394.956:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=434 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.623367] audit: type=1400 audit(1505480394.956:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=434 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.623370] audit: type=1400 audit(1505480394.956:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=434 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.627761] audit: type=1400 audit(1505480394.960:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=449 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.627766] audit: type=1400 audit(1505480394.960:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=449 comm="apparmor_parser"
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.629418] [drm] Initialized drm 1.1.0 20060810
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.734479] intel_rapl: no valid rapl domains found in package 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.736409] [drm] VRAM 08000000
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.737108] [TTM] Zone  kernel: Available graphics memory: 428976 kiB
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.737108] [TTM] Zone highmem: Available graphics memory: 2069396 kiB
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.737109] [TTM] Initializing pool allocator
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.737112] [TTM] Initializing DMA pool allocator
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.762823] fbcon: vboxdrmfb (fb0) is primary device
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.774107] intel_rapl: no valid rapl domains found in package 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.774323] Console: switching to colour frame buffer device 100x37
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.775816] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.784209] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.870726] snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+Sep 15 08:59:55 danny-VirtualBox kernel: [    5.937536] Adding 4191228k swap on /dev/sda5.  Priority:-1 extents:1 across:4191228k FS
+Sep 15 08:59:55 danny-VirtualBox gpu-manager[749]: /etc/modprobe.d is not a file
+Sep 15 08:59:55 danny-VirtualBox gpu-manager[749]: message repeated 3 times: [ /etc/modprobe.d is not a file]
+Sep 15 08:59:55 danny-VirtualBox gpu-manager[749]: Error: can't open /lib/modules/4.4.79ysong5/updates/dkms
+Sep 15 08:59:55 danny-VirtualBox gpu-manager[749]: Error: can't open /lib/modules/4.4.79ysong5/updates/dkms
+Sep 15 08:59:55 danny-VirtualBox gpu-manager[749]: update-alternatives: error: no alternatives for i386-linux-gnu_gfxcore_conf
+Sep 15 08:59:55 danny-VirtualBox dbus[768]: [system] AppArmor D-Bus mediation is enabled
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: Successfully called chroot().
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: Successfully dropped remaining capabilities.
+Sep 15 08:59:55 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: NO RAPL sysfs present
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: 22 CPUID levels; family:model:stepping 0x6:5e:3 (6:94:3)
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: Polling mode is enabled: 4
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: Thermal DTS: No coretemp sysfs found
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Thermal Daemon Service.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: No service file found in /etc/avahi/services.
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: No thermal sensors found
+Sep 15 08:59:55 danny-VirtualBox thermald[731]: THD engine start failed
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: Network interface enumeration completed.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Network Manager...
+Sep 15 08:59:55 danny-VirtualBox avahi-daemon[711]: Server startup complete. Host name is danny-VirtualBox.local. Local service cookie is 2095953372.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Permit User Sessions...
+Sep 15 08:59:55 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Starting Snappy daemon...
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started System Logging Service.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Sep 15 08:59:55 danny-VirtualBox systemd[1]: Started Automatically fetch and run repair assertions.
+Sep 15 08:59:56 danny-VirtualBox systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Sep 15 08:59:56 danny-VirtualBox vboxadd[722]: vboxadd.sh: Starting the VirtualBox Guest Additions.
+Sep 15 08:59:56 danny-VirtualBox vboxadd.sh: Starting the VirtualBox Guest Additions.
+Sep 15 08:59:57 danny-VirtualBox systemd[1]: Started Permit User Sessions.
+Sep 15 08:59:57 danny-VirtualBox acpid: starting up with netlink and the input layer
+Sep 15 08:59:57 danny-VirtualBox kernel: [    8.610000] floppy0: no floppy controllers found
+Sep 15 08:59:57 danny-VirtualBox kernel: [    8.610099] work still pending
+Sep 15 08:59:58 danny-VirtualBox kernel: [    9.125440] vboxsf: Successfully loaded version 5.1.26 (interface 0x00010004)
+Sep 15 08:59:58 danny-VirtualBox acpid: 9 rules loaded
+Sep 15 08:59:58 danny-VirtualBox acpid: waiting for events: event logging is off
+Sep 15 08:59:58 danny-VirtualBox kernel: [    9.127290] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started vboxadd-x11.service.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.4815] NetworkManager (version 1.2.6) is starting...
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.4848] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Received SIGRTMIN+20 from PID 346 (plymouthd).
+Sep 15 08:59:58 danny-VirtualBox speech-dispatcher[708]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Raise network interfaces.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started LSB: Speech Dispatcher.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.5134] manager[0x8d22100]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.5141] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.5222] dns-mgr[0x8d140b0]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+Sep 15 08:59:58 danny-VirtualBox snapd[823]: 2017/09/15 08:59:58.546669 daemon.go:252: started snapd/2.27.5 (series 16; classic) ubuntu/16.04 (i386) linux/4.4.79ysong5.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Snappy daemon.
+Sep 15 08:59:58 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Sep 15 08:59:58 danny-VirtualBox snapd[823]: 2017/09/15 08:59:58.555257 snapmgr.go:429: No snaps to auto-refresh found
+Sep 15 08:59:58 danny-VirtualBox apport[728]:  * Starting automatic crash report generation: apport
+Sep 15 08:59:58 danny-VirtualBox apport[728]:    ...done.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started LSB: automatic crash report generation.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+Sep 15 08:59:58 danny-VirtualBox irqbalance[763]:  * Starting SMP IRQ Balancer: irqbalance
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started LSB: Record successful boot for GRUB.
+Sep 15 08:59:58 danny-VirtualBox irqbalance[763]:    ...done.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Network Manager.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Login Service.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Starting Network Manager Wait Online...
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Starting Auto import assertions from block devices...
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Reached target Network.
+Sep 15 08:59:58 danny-VirtualBox snap[929]: auto-import is disabled on classic
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Unattended Upgrades Shutdown.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Reached target Sound Card.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Auto import assertions from block devices.
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: Installing the Window System drivers.
+Sep 15 08:59:58 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7017] init!
+Sep 15 08:59:58 danny-VirtualBox polkitd[925]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7037] management mode: unmanaged
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7040] devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7040] device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3): no ifupdown configuration found.
+Sep 15 08:59:58 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7040] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7040] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7040] end _init.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7040] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/i386-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7041] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+Sep 15 08:59:58 danny-VirtualBox accounts-daemon[755]: started daemon version 0.6.40
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7071] SettingsPlugin-Ofono: init!
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <warn>  [1505480398.7072] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7072] SettingsPlugin-Ofono: end _init.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7072] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/i386-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7073] (148069680) ... get_connections.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7073] (148069680) ... get_connections (managed=false): return empty list.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7080] SettingsPlugin-Ofono: (148069800) ... get_connections.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7080] SettingsPlugin-Ofono: (148069800) connections count: 0
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7081] get unmanaged devices count: 0
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Accounts Service.
+Sep 15 08:59:58 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: Installing X.Org Server 1.18 modules.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: X.Org Server 1.18 modules installed.
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: Setting up the Window System to use the Guest Additions.
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: Window System set up to use the Guest Additions.
+Sep 15 08:59:58 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 15 08:59:58 danny-VirtualBox vboxadd[722]: You may need to restart the Window System (or just restart the guest system)
+Sep 15 08:59:58 danny-VirtualBox vboxadd[722]: to enable the Guest Additions.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Hostname Service.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7351] settings: hostname: using hostnamed
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7351] settings: hostname changed from (none) to "danny-VirtualBox"
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7354] Using DHCP client 'dhclient'
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7354] manager: WiFi enabled by radio killswitch; enabled by state file
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7354] manager: WWAN enabled by radio killswitch; enabled by state file
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7356] manager: Networking is enabled by state file
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7356] Loaded device plugin: NMVxlanFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7356] Loaded device plugin: NMVlanFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7356] Loaded device plugin: NMVethFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7357] Loaded device plugin: NMTunFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7357] Loaded device plugin: NMMacvlanFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: Installing graphics libraries and desktop services components.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7357] Loaded device plugin: NMIPTunnelFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7357] Loaded device plugin: NMInfinibandFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7357] Loaded device plugin: NMEthernetFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7358] Loaded device plugin: NMBridgeFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7358] Loaded device plugin: NMBondFactory (internal)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7398] Loaded device plugin: NMAtmManager (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Modem Manager.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7462] Loaded device plugin: NMBluezManager (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7489] Loaded device plugin: NMWwanFactory (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7539] Loaded device plugin: NMWifiFactory (/usr/lib/i386-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: nm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7559] device (lo): link connected
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7568] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/0)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7588] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7604] keyfile: add connection in-memory (ce6845a9-30b9-3188-9aab-84ea7815380f,"Wired connection 1")
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7614] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 15 08:59:58 danny-VirtualBox vboxadd-x11.sh: Window system drivers installed.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7629] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Sep 15 08:59:58 danny-VirtualBox kernel: [    9.425992] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Sep 15 08:59:58 danny-VirtualBox kernel: [    9.428155] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Sep 15 08:59:58 danny-VirtualBox kernel: [    9.432604] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Sep 15 08:59:58 danny-VirtualBox kernel: [    9.432920] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7744] urfkill disappeared from the bus
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7810] device (enp0s3): link connected
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7847] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7869] ofono is now available
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7872] ModemManager available in the bus
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7878] policy: auto-activating connection 'Wired connection 1'
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <warn>  [1505480398.7897] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7907] device (enp0s3): Activation: starting connection 'Wired connection 1' (ce6845a9-30b9-3188-9aab-84ea7815380f)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7912] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7918] manager: NetworkManager state is now CONNECTING
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7923] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7942] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.7952] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8139] dhcp4 (enp0s3): dhclient started with pid 986
+Sep 15 08:59:58 danny-VirtualBox vboxadd.sh: .
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started vboxadd.service.
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Starting Light Display Manager...
+Sep 15 08:59:58 danny-VirtualBox dhclient[986]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x5ed56f87)
+Sep 15 08:59:58 danny-VirtualBox dhclient[986]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8625]   address 10.0.2.15
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8626]   plen 24 (255.255.255.0)
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8626]   gateway 10.0.2.2
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8626]   server identifier 10.0.2.2
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8626]   lease time 86400
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8626]   nameserver '192.168.1.1'
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8626] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 15 08:59:58 danny-VirtualBox avahi-daemon[711]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8662] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Sep 15 08:59:58 danny-VirtualBox avahi-daemon[711]: New relevant interface enp0s3.IPv4 for mDNS.
+Sep 15 08:59:58 danny-VirtualBox avahi-daemon[711]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Sep 15 08:59:58 danny-VirtualBox dhclient[986]: bound to 10.0.2.15 -- renewal in 37925 seconds.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8731] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8752] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8756] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8787] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8790] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8793] dns-plugin[0x8d25948]: starting dnsmasq...
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.8864] dns-mgr: Writing DNS information to /sbin/resolvconf
+Sep 15 08:59:58 danny-VirtualBox dnsmasq[1009]: started, version 2.75 cache disabled
+Sep 15 08:59:58 danny-VirtualBox dnsmasq[1009]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Sep 15 08:59:58 danny-VirtualBox dnsmasq[1009]: DBus support enabled: connected to system bus
+Sep 15 08:59:58 danny-VirtualBox dnsmasq[1009]: warning: no upstream servers configured
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Received SIGRTMIN+21 from PID 346 (plymouthd).
+Sep 15 08:59:58 danny-VirtualBox systemd[1]: Started Light Display Manager.
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.9848] device (enp0s3): Activation: successful, device activated.
+Sep 15 08:59:58 danny-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Sep 15 08:59:58 danny-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Sep 15 08:59:58 danny-VirtualBox NetworkManager[816]: <info>  [1505480398.9893] dnsmasq[0x8d25948]: dnsmasq appeared as :1.25
+Sep 15 08:59:58 danny-VirtualBox dnsmasq[1009]: setting upstream servers from DBus
+Sep 15 08:59:58 danny-VirtualBox dnsmasq[1009]: using nameserver 192.168.1.1#53(via enp0s3)
+Sep 15 08:59:59 danny-VirtualBox systemd[1]: Created slice User Slice of lightdm.
+Sep 15 08:59:59 danny-VirtualBox systemd[1]: Started Session c1 of user lightdm.
+Sep 15 08:59:59 danny-VirtualBox systemd[1]: Starting User Manager for UID 108...
+Sep 15 08:59:59 danny-VirtualBox systemd[1184]: Reached target Paths.
+Sep 15 08:59:59 danny-VirtualBox systemd[1184]: Reached target Timers.
+Sep 15 08:59:59 danny-VirtualBox systemd[1184]: Reached target Sockets.
+Sep 15 08:59:59 danny-VirtualBox systemd[1184]: Reached target Basic System.
+Sep 15 08:59:59 danny-VirtualBox systemd[1184]: Reached target Default.
+Sep 15 08:59:59 danny-VirtualBox systemd[1184]: Startup finished in 15ms.
+Sep 15 08:59:59 danny-VirtualBox systemd[1]: Started User Manager for UID 108.
+Sep 15 08:59:59 danny-VirtualBox org.a11y.atspi.Registry[1206]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Sep 15 08:59:59 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Sep 15 09:00:00 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'
+Sep 15 09:00:00 danny-VirtualBox systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Sep 15 09:00:00 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Sep 15 09:00:00 danny-VirtualBox systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully called chroot.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully dropped privileges.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully limited resources.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Running.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Watchdog thread running.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Canary thread running.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1303 of process 1303 (n/a) owned by '108' high priority at nice level -11.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Supervising 1 threads of 1 processes of 1 users.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1303]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1303]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Supervising 1 threads of 1 processes of 1 users.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1315 of process 1303 (n/a) owned by '108' RT at priority 5.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Supervising 2 threads of 1 processes of 1 users.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1303]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1303]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1303]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1303]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Sep 15 09:00:00 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Supervising 2 threads of 1 processes of 1 users.
+Sep 15 09:00:00 danny-VirtualBox systemd[1]: Starting Daemon for power management...
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1318 of process 1303 (n/a) owned by '108' RT at priority 5.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Supervising 3 threads of 1 processes of 1 users.
+Sep 15 09:00:00 danny-VirtualBox ModemManager[740]: <info>  Couldn't find support for device at '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 15 09:00:00 danny-VirtualBox avahi-daemon[711]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::eb64:2e89:3ba7:6c1c.
+Sep 15 09:00:00 danny-VirtualBox avahi-daemon[711]: New relevant interface enp0s3.IPv6 for mDNS.
+Sep 15 09:00:00 danny-VirtualBox avahi-daemon[711]: Registering new address record for fe80::eb64:2e89:3ba7:6c1c on enp0s3.*.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1327 of process 1327 (n/a) owned by '108' high priority at nice level -11.
+Sep 15 09:00:00 danny-VirtualBox rtkit-daemon[1304]: Supervising 4 threads of 2 processes of 1 users.
+Sep 15 09:00:00 danny-VirtualBox pulseaudio[1327]: [pulseaudio] pid.c: Daemon already running.
+Sep 15 09:00:00 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.UPower'
+Sep 15 09:00:00 danny-VirtualBox systemd[1]: Started Daemon for power management.
+Sep 15 09:00:00 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Sep 15 09:00:00 danny-VirtualBox systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Sep 15 09:00:00 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Sep 15 09:00:00 danny-VirtualBox systemd[1]: Started Manage, Install and Generate Color Profiles.
+Sep 15 09:00:02 danny-VirtualBox org.gtk.vfs.Daemon[1198]: A connection to the bus can't be made
+Sep 15 09:00:02 danny-VirtualBox systemd[1]: Created slice User Slice of danny.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Starting User Manager for UID 1000...
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Session c2 of user danny.
+Sep 15 09:00:03 danny-VirtualBox systemd[1351]: Reached target Timers.
+Sep 15 09:00:03 danny-VirtualBox systemd[1351]: Reached target Sockets.
+Sep 15 09:00:03 danny-VirtualBox systemd[1351]: Reached target Paths.
+Sep 15 09:00:03 danny-VirtualBox systemd[1351]: Reached target Basic System.
+Sep 15 09:00:03 danny-VirtualBox systemd[1351]: Reached target Default.
+Sep 15 09:00:03 danny-VirtualBox systemd[1351]: Startup finished in 24ms.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started User Manager for UID 1000.
+Sep 15 09:00:03 danny-VirtualBox org.ayatana.bamf[1510]: bamfdaemon start/running, process 1570
+Sep 15 09:00:03 danny-VirtualBox NetworkManager[816]: <info>  [1505480403.6389] manager: startup complete
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Network Manager Wait Online.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Reached target Network is Online.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Daily apt download activities.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Reached target Timers.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Starting /etc/rc.local Compatibility...
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started crash report submission daemon.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Starting Daily apt upgrade and clean activities...
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started /etc/rc.local Compatibility.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Starting Hold until boot process finishes up...
+Sep 15 09:00:03 danny-VirtualBox whoopsie[1621]: [09:00:03] Using lock path: /var/lock/whoopsie/lock
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Hold until boot process finishes up.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Getty on tty1.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Reached target Login Prompts.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Reached target Multi-User System.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Reached target Graphical Interface.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Starting Set console scheme...
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Update UTMP about System Runlevel Changes.
+Sep 15 09:00:03 danny-VirtualBox systemd[1]: Started Set console scheme.
+Sep 15 09:00:03 danny-VirtualBox whoopsie[1621]: [09:00:03] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+Sep 15 09:00:03 danny-VirtualBox whoopsie[1621]: [09:00:03] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+Sep 15 09:00:03 danny-VirtualBox whoopsie[1621]: [09:00:03] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+Sep 15 09:00:04 danny-VirtualBox org.a11y.atspi.Registry[1710]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1828 of process 1828 (n/a) owned by '1000' high priority at nice level -11.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Supervising 4 threads of 2 processes of 2 users.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Supervising 4 threads of 2 processes of 2 users.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1876 of process 1828 (n/a) owned by '1000' RT at priority 5.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Supervising 5 threads of 2 processes of 2 users.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Supervising 5 threads of 2 processes of 2 users.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1877 of process 1828 (n/a) owned by '1000' RT at priority 5.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Supervising 6 threads of 2 processes of 2 users.
+Sep 15 09:00:05 danny-VirtualBox org.gnome.ScreenSaver[1510]: ** (gnome-screensaver:1808): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [alsa-source-Intel ICH] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [alsa-source-Intel ICH] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1828]: [alsa-source-Intel ICH] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Successfully made thread 1895 of process 1895 (n/a) owned by '1000' high priority at nice level -11.
+Sep 15 09:00:05 danny-VirtualBox rtkit-daemon[1304]: Supervising 7 threads of 3 processes of 2 users.
+Sep 15 09:00:05 danny-VirtualBox pulseaudio[1895]: [pulseaudio] pid.c: Daemon already running.
+Sep 15 09:00:05 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Sep 15 09:00:05 danny-VirtualBox systemd[1]: Starting Locale Service...
+Sep 15 09:00:05 danny-VirtualBox gnome-session[1701]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Sep 15 09:00:05 danny-VirtualBox gnome-session[1701]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Sep 15 09:00:05 danny-VirtualBox gnome-session[1701]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Sep 15 09:00:05 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.locale1'
+Sep 15 09:00:05 danny-VirtualBox systemd[1]: Started Locale Service.
+Sep 15 09:00:05 danny-VirtualBox gnome-session-binary[1701]: Entering running state
+Sep 15 09:00:05 danny-VirtualBox gnome-session[1701]: (process:1981): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+Sep 15 09:00:05 danny-VirtualBox gnome-session[1701]: (process:1981): indicator-application-service-WARNING **: Name Lost
+Sep 15 09:00:05 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Sep 15 09:00:05 danny-VirtualBox systemd[1]: Starting Disk Manager...
+Sep 15 09:00:05 danny-VirtualBox udisksd[2085]: udisks daemon version 2.1.7 starting
+Sep 15 09:00:06 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Sep 15 09:00:06 danny-VirtualBox systemd[1]: Started Disk Manager.
+Sep 15 09:00:06 danny-VirtualBox udisksd[2085]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Sep 15 09:00:06 danny-VirtualBox dbus[768]: [system] Activating service name='org.freedesktop.fwupd' (using servicehelper)
+Sep 15 09:00:06 danny-VirtualBox org.gtk.vfs.AfcVolumeMonitor[1510]: Volume monitor alive
+Sep 15 09:00:06 danny-VirtualBox org.freedesktop.fwupd[768]: (fwupd:2114): Fu-WARNING **: Failed to coldplug: UEFI firmware updating not supported
+Sep 15 09:00:06 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Sep 15 09:00:07 danny-VirtualBox gnome-session[1701]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Sep 15 09:00:07 danny-VirtualBox gnome-session[1701]: ** (unity-fallback-mount-helper:1967): WARNING **: Can't call IsLocked() on the Unity.Session object: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.Unity.Session' on object at path /com/canonical/Unity/Session
+Sep 15 09:00:07 danny-VirtualBox org.gnome.ScreenSaver[1510]: ** Message: Lost the name, shutting down.
+Sep 15 09:00:08 danny-VirtualBox NetworkManager[816]: <info>  [1505480408.6378] manager: WiFi hardware radio set enabled
+Sep 15 09:00:08 danny-VirtualBox NetworkManager[816]: <info>  [1505480408.6378] manager: WWAN hardware radio set enabled
+Sep 15 09:00:24 danny-VirtualBox pulseaudio[1828]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Sep 15 09:00:25 danny-VirtualBox org.gnome.zeitgeist.Engine[1510]: ** (zeitgeist-datahub:2446): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Sep 15 09:00:30 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:30 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:30 danny-VirtualBox systemd[1]: Reloading.
+Sep 15 09:00:30 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:30 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 09:00:30 danny-VirtualBox systemd[1]: Started ACPI event daemon.
+Sep 15 09:00:30 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:34 danny-VirtualBox gnome-session[1701]: ** (zeitgeist-datahub:2427): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+Sep 15 09:00:34 danny-VirtualBox gnome-session[1701]: ** (zeitgeist-datahub:2427): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+Sep 15 09:00:35 danny-VirtualBox gnome-session[1701]: (gnome-software:1978): As-WARNING **: failed to rescan: Failed to parse /usr/share/applications/thunderbird.desktop.dpkg-new file: cannot process file of type text/plain
+Sep 15 09:00:35 danny-VirtualBox gnome-session[1701]: (gnome-software:1978): As-WARNING **: failed to rescan: Failed to parse /usr/share/applications/thunderbird.desktop.dpkg-tmp file: cannot process file of type text/plain
+Sep 15 09:00:35 danny-VirtualBox gnome-session[1701]: (gnome-software:1978): As-WARNING **: failed to rescan: Failed to parse /usr/share/applications/thunderbird.desktop file: cannot process file of type application/x-desktop
+Sep 15 09:00:36 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:36 danny-VirtualBox systemd[1]: Reloading.
+Sep 15 09:00:36 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 09:00:36 danny-VirtualBox systemd[1]: Started ACPI event daemon.
+Sep 15 09:00:37 danny-VirtualBox gnome-session[1701]: (gnome-software:1978): As-WARNING **: failed to rescan: Failed to parse /usr/share/applications/bamf-2.index.new file: cannot process file of type text/plain
+Sep 15 09:00:37 danny-VirtualBox gnome-session[1701]: (gnome-software:1978): As-WARNING **: failed to rescan: Failed to parse /usr/share/applications/bamf-2.index file: cannot process file of type text/plain
+Sep 15 09:00:37 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 15 09:00:37 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Started Hostname Service.
+Sep 15 09:00:37 danny-VirtualBox kernel: [   48.173891] audit_printk_skb: 42 callbacks suppressed
+Sep 15 09:00:37 danny-VirtualBox kernel: [   48.173894] audit: type=1400 audit(1505480437.508:25): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/tcpdump" pid=3430 comm="apparmor_parser"
+Sep 15 09:00:37 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Reloading.
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Started ACPI event daemon.
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Reloading D-Bus System Message Bus.
+Sep 15 09:00:37 danny-VirtualBox dbus[768]: [system] Reloaded configuration
+Sep 15 09:00:37 danny-VirtualBox dbus-send[3479]: method return time=1505480437.727327 sender=org.freedesktop.DBus -> destination=:1.92 serial=3 reply_serial=2
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Reloaded D-Bus System Message Bus.
+Sep 15 09:00:37 danny-VirtualBox systemd[1]: Reloading.
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Starting Daily apt download activities...
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Started ACPI event daemon.
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Reloading.
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Started CUPS Scheduler.
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Started ACPI event daemon.
+Sep 15 09:00:38 danny-VirtualBox systemd[1]: Stopped Bluetooth service.
+Sep 15 09:00:40 danny-VirtualBox org.gtk.vfs.Daemon[1510]: ** (gvfsd:1574): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Sep 15 09:00:40 danny-VirtualBox org.gtk.vfs.Daemon[1510]: ** (process:3418): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Sep 15 09:00:42 danny-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Sep 15 09:00:43 danny-VirtualBox org.gtk.vfs.Daemon[1510]: ** (gvfsd:1574): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Sep 15 09:00:43 danny-VirtualBox org.gtk.vfs.Daemon[1510]: ** (process:3434): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Sep 15 09:00:49 danny-VirtualBox systemd[1]: Started Daily apt download activities.
+Sep 15 09:00:49 danny-VirtualBox systemd[1]: Startup finished in 4.665s (kernel) + 54.980s (userspace) = 59.645s.
+Sep 15 09:00:50 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1510]: ** (zeitgeist-fts:2451): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 09:00:50 danny-VirtualBox gnome-session[1701]: javaldx: Could not find a Java Runtime Environment!
+Sep 15 09:00:50 danny-VirtualBox gnome-session[1701]: Warning: failed to read path from javaldx
+Sep 15 09:00:50 danny-VirtualBox gnome-session[1701]: (soffice:3986): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+Sep 15 09:00:51 danny-VirtualBox gnome-session[1701]: (soffice:3999): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+Sep 15 09:00:51 danny-VirtualBox gnome-session[1701]: (soffice:3999): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+Sep 15 09:00:51 danny-VirtualBox gnome-session[1701]: W: Unknown node under /registry/extlang: deprecated
+Sep 15 09:00:51 danny-VirtualBox gnome-session[1701]: W: Unknown node under /registry/grandfathered: comments
+Sep 15 09:00:51 danny-VirtualBox gnome-session[1701]: W: Unknown node under /registry/grandfathered: comments
+Sep 15 09:00:54 danny-VirtualBox gnome-session[1701]: ** (soffice:3999): WARNING **: Unknown event notification 36
+Sep 15 09:01:08 danny-VirtualBox dbus[768]: [system] Activating service name='org.debian.apt' (using servicehelper)
+Sep 15 09:01:09 danny-VirtualBox AptDaemon: INFO: Initializing daemon
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon [INFO]: Initializing daemon
+Sep 15 09:01:09 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.debian.apt'
+Sep 15 09:01:09 danny-VirtualBox AptDaemon.PackageKit: INFO: Initializing PackageKit compat layer
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: /usr/lib/python3/dist-packages/aptdaemon/worker/pkworker.py:35: PyGIWarning: PackageKitGlib was imported without specifying a version first. Use gi.require_version('PackageKitGlib', '1.0') before import to ensure that the right version gets loaded.
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]:   from gi.repository import PackageKitGlib as pk
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon.PackageKit [INFO]: Initializing PackageKit compat layer
+Sep 15 09:01:09 danny-VirtualBox AptDaemon: INFO: UpdateCache() was called
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon [INFO]: UpdateCache() was called
+Sep 15 09:01:09 danny-VirtualBox gnome-session[1701]: (gnome-software:1978): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Sep 15 09:01:09 danny-VirtualBox AptDaemon.Trans: INFO: Queuing transaction /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:09 danny-VirtualBox AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:09 danny-VirtualBox AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:09 danny-VirtualBox AptDaemon.Worker: INFO: Updating cache
+Sep 15 09:01:09 danny-VirtualBox org.debian.apt[768]: 09:01:09 AptDaemon.Worker [INFO]: Updating cache
+Sep 15 09:01:10 danny-VirtualBox AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:10 danny-VirtualBox org.debian.apt[768]: 09:01:10 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/f76de974c2164375a8eacc3286acca4f
+Sep 15 09:01:22 danny-VirtualBox kernel: [   92.831699] Interceptor: Found syscall table at address: 0xC17C81C0
+Sep 15 09:01:59 danny-VirtualBox systemd[1]: Stopping User Manager for UID 108...
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Reached target Shutdown.
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Starting Exit the Session...
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Stopped target Default.
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Stopped target Basic System.
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Stopped target Paths.
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Stopped target Timers.
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Stopped target Sockets.
+Sep 15 09:01:59 danny-VirtualBox systemd[1184]: Received SIGRTMIN+24 from PID 4807 (kill).
+Sep 15 09:01:59 danny-VirtualBox systemd[1]: Stopped User Manager for UID 108.
+Sep 15 09:01:59 danny-VirtualBox systemd[1]: Removed slice User Slice of lightdm.
+Sep 15 09:02:09 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1510]: ** (zeitgeist-fts:2451): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 09:03:10 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1510]: ** (zeitgeist-fts:2451): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 09:04:13 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1510]: ** (zeitgeist-fts:2451): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 09:04:46 danny-VirtualBox dbus[768]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Sep 15 09:04:46 danny-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 15 09:04:46 danny-VirtualBox dbus[768]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 15 09:04:46 danny-VirtualBox systemd[1]: Started Hostname Service.
+Sep 15 09:04:56 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1510]: ** (zeitgeist-fts:2451): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Sep 15 09:07:50 danny-VirtualBox org.gnome.zeitgeist.SimpleIndexer[1510]: message repeated 3 times: [ ** (zeitgeist-fts:2451): WARNING **: Unable to get info on application://nautilus-autostart.desktop]
+Sep 15 09:08:57 danny-VirtualBox gnome-session[1701]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
